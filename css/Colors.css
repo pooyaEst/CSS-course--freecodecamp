@@ -21,6 +21,14 @@ body {
   color: rgb(179, 88, 88);
 }
 
+img {
+  width: 50%;
+  border: 2px double black;
+  margin: 40px 10px;
+  float: none;
+  display: inline;
+}
+
 #service-image {
   height: 400px;
   width: 70%;
@@ -33,7 +41,17 @@ body {
   );
   background: radial-gradient(circle, red 5%, green 80%);
 }
-
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-item {
+  text-align: center;
+  background: lightblue;
+  width: 30px;
+  margin: 4px;
+}
 span.italic {
   font-family: "metropolisregular";
 }
